@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.liberu.dev/module/v1.json",
+  "name": "sap-partners-and-portals-filament",
+  "display_name": "Partners and portals",
+  "description": "Partners and portals Filament presentation module skeleton",
+  "version": "0.1.0-alpha.0",
+  "category": "presentation",
+  "provider": "Liberu\\Presentation\\Capability38e97bec2c98\\CapabilityServiceProvider",
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {},
+    "capabilities": []
+  },
+  "presentation": {
+    "filament": {
+      "admin": [
+        "Liberu\\Presentation\\Capability38e97bec2c98\\CapabilityPlugin"
+      ]
+    }
+  },
+  "capabilities": [],
+  "features": [
+    "Filament package extension entry (skeleton)"
+  ],
+  "default_enabled": false
+}
