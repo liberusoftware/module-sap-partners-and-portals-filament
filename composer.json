@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/sap-partners-and-portals-filament",
+  "description": "Partners and portals Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability38e97bec2c98\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "sap-partners-and-portals-filament"
+    }
+  }
+}

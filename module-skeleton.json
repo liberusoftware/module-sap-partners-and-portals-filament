@@ -1,0 +1,15 @@
+{
+  "repository": "module-sap-partners-and-portals-filament",
+  "capabilityKey": "planned:sap:partners-and-portals",
+  "presentation": "laravel-filament",
+  "package": "liberusoftware/sap-partners-and-portals-filament",
+  "foundation": "module-boilerplate-filament",
+  "foundationCommit": "9282e55622b1abd4db48da891480cd9cac46c158",
+  "canonicalPlan": "projects/sap/nextjs/partners-and-portals.md",
+  "presentationPlan": "projects/sap/filament/partners-and-portals.md",
+  "identityReviewRequired": false,
+  "status": "skeleton",
+  "documentedConsumerScopes": [
+    "sap"
+  ]
+}
